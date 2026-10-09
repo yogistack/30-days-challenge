@@ -1,0 +1,24 @@
+// Calculate Sum, Count, and Average Using Loops                                                                                                                                                            let sum = 0;
+for (let x = 1; x <= 5; x++) {
+    sum = sum + x;
+}
+// Step	x	sum
+// 1	1	0 + 1 = 1
+// 2	2	1 + 2 = 3
+// 3	3	3 + 3 = 6
+// 4	4	6 + 4 = 10
+// 5	5	10 + 5 = 15
+let count = 0;
+for (let y = 1; y <= 5; y++) {
+    count++;
+}
+let average = sum / count;
+console.log("Sum =", sum)
+console.log("Count =", count)
+console.log("Average =", average)
+// sum = 0  Stores the total.
+// First for loop  Adds numbers from 1 to 5.
+// count = 0  Stores how many numbers there are.
+// Second for loop  Counts 1 to 5.
+// average = sum / count  Calculates the average.
+//  Prints Sum, Count, and Average.
